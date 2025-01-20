@@ -2,7 +2,18 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    screens: {
+      'sm': '641px',
+    },
+    extend: {
+      // listStyleImage: {
+      //   ring:url(''),
+      // },
+      fontFamily: {
+        sora: ["Sora", "sans-serif"],
+        // Add more custom font families as needed
+      }
+    },
   },
   plugins: [],
 }
