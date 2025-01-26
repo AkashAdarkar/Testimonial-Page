@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     screens: {
       'sm': '641px',
+      'md':'700px',
+      'lg': '1025px'
     },
     extend: {
       // listStyleImage: {
